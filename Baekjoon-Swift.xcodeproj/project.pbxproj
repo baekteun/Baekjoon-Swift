@@ -57,9 +57,25 @@
 		468B245E270E69F30050257A /* Baekjoon-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				468B245F270E69F30050257A /* main.swift */,
+				468B2469270E6B230050257A /* B_1193 */,
+				468B2468270E6A700050257A /* B_2292 */,
 			);
 			path = "Baekjoon-Swift";
+			sourceTree = "<group>";
+		};
+		468B2468270E6A700050257A /* B_2292 */ = {
+			isa = PBXGroup;
+			children = (
+				468B245F270E69F30050257A /* main.swift */,
+			);
+			path = B_2292;
+			sourceTree = "<group>";
+		};
+		468B2469270E6B230050257A /* B_1193 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = B_1193;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
