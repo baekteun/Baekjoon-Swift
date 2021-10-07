@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		468B248D270F05D10050257A /* B_10994.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468B248C270F05D10050257A /* B_10994.swift */; };
+		467F8929270F104E00701969 /* B_10828.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467F8928270F104E00701969 /* B_10828.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		467F8928270F104E00701969 /* B_10828.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B_10828.swift; sourceTree = "<group>"; };
 		468B245C270E69F30050257A /* Baekjoon-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Baekjoon-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		468B245F270E69F30050257A /* B_2292.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B_2292.swift; sourceTree = "<group>"; };
 		468B246E270E6F0F0050257A /* B_1193.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B_1193.swift; sourceTree = "<group>"; };
@@ -48,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		467F8927270F104200701969 /* B_10828 */ = {
+			isa = PBXGroup;
+			children = (
+				467F8928270F104E00701969 /* B_10828.swift */,
+			);
+			path = B_10828;
+			sourceTree = "<group>";
+		};
 		468B2453270E69F30050257A = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +76,7 @@
 		468B245E270E69F30050257A /* Baekjoon-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				467F8927270F104200701969 /* B_10828 */,
 				468B248B270F05C20050257A /* B_10994 */,
 				468B2488270F04D30050257A /* B_10829 */,
 				468B2485270ECCFE0050257A /* B_6603 */,
@@ -229,7 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				468B248D270F05D10050257A /* B_10994.swift in Sources */,
+				467F8929270F104E00701969 /* B_10828.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
