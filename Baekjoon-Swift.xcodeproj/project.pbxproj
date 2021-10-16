@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4604AFBF2718EFAF00CDFBD9 /* B_1225.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4604AFBE2718EFAF00CDFBD9 /* B_1225.swift */; };
+		4604AFD4271A85AC00CDFBD9 /* B_1252.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4604AFD3271A85AC00CDFBD9 /* B_1252.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +26,7 @@
 		4604AEF52716914500CDFBD9 /* B_1159.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B_1159.swift; sourceTree = "<group>"; };
 		4604AF372717AA1800CDFBD9 /* B_1173.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B_1173.swift; sourceTree = "<group>"; };
 		4604AFBE2718EFAF00CDFBD9 /* B_1225.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B_1225.swift; sourceTree = "<group>"; };
+		4604AFD3271A85AC00CDFBD9 /* B_1252.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B_1252.swift; sourceTree = "<group>"; };
 		464443B027114A220012575B /* B_15727.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B_15727.swift; sourceTree = "<group>"; };
 		464443C62712A43A0012575B /* B_13136.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B_13136.swift; sourceTree = "<group>"; };
 		464443C92712B6790012575B /* B_15680.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B_15680.swift; sourceTree = "<group>"; };
@@ -84,6 +85,14 @@
 				4604AFBE2718EFAF00CDFBD9 /* B_1225.swift */,
 			);
 			path = B_1225;
+			sourceTree = "<group>";
+		};
+		4604AFD2271A859D00CDFBD9 /* B_1252 */ = {
+			isa = PBXGroup;
+			children = (
+				4604AFD3271A85AC00CDFBD9 /* B_1252.swift */,
+			);
+			path = B_1252;
 			sourceTree = "<group>";
 		};
 		464443AF27114A120012575B /* B_15727 */ = {
@@ -193,6 +202,7 @@
 		468B245E270E69F30050257A /* Baekjoon-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				4604AFD2271A859D00CDFBD9 /* B_1252 */,
 				4604AFBD2718EF8700CDFBD9 /* B_1225 */,
 				4604AF362717A9EF00CDFBD9 /* B_1173 */,
 				4604AEF42716913D00CDFBD9 /* B_1159 */,
@@ -369,7 +379,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4604AFBF2718EFAF00CDFBD9 /* B_1225.swift in Sources */,
+				4604AFD4271A85AC00CDFBD9 /* B_1252.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
