@@ -5,7 +5,7 @@
 //  Created by baegteun on 2021/10/29.
 //
 
-import Foundation
+
 var input = readLine()!
 var count = 0
 while input.count >= 2{
