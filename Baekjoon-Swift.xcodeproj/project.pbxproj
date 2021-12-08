@@ -6,10 +6,6 @@
 	objectVersion = 55;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		467DBA08275EDD31003C13C8 /* B_2754.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467DBA07275EDD31003C13C8 /* B_2754.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		468B245A270E69F30050257A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -60,6 +56,7 @@
 		464443CC2712CBD40012575B /* B_10949.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B_10949.swift; sourceTree = "<group>"; };
 		4644440C2713F74B0012575B /* B_11047.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B_11047.swift; sourceTree = "<group>"; };
 		4644443D2714FB450012575B /* B_1100.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B_1100.swift; sourceTree = "<group>"; };
+		465C9368276034F600F90369 /* B_1673.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B_1673.swift; sourceTree = "<group>"; };
 		4664ACB7273DDF7000A2D09A /* B_2204.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B_2204.swift; sourceTree = "<group>"; };
 		4664ACC0273F792400A2D09A /* B_15829.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B_15829.swift; sourceTree = "<group>"; };
 		4677180D272B673B009AB223 /* B_1769.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B_1769.swift; sourceTree = "<group>"; };
@@ -432,6 +429,14 @@
 			path = B_1100;
 			sourceTree = "<group>";
 		};
+		465C9367276034EE00F90369 /* B_1673 */ = {
+			isa = PBXGroup;
+			children = (
+				465C9368276034F600F90369 /* B_1673.swift */,
+			);
+			path = B_1673;
+			sourceTree = "<group>";
+		};
 		4664ACB6273DDF6700A2D09A /* B_2204 */ = {
 			isa = PBXGroup;
 			children = (
@@ -539,6 +544,7 @@
 		468B245E270E69F30050257A /* Baekjoon-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				465C9367276034EE00F90369 /* B_1673 */,
 				467DBA06275EDD2C003C13C8 /* B_2754 */,
 				467DB970275D8958003C13C8 /* B_1406 */,
 				461FA844275C8CFF003C582C /* B_7785 */,
@@ -1109,7 +1115,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				467DBA08275EDD31003C13C8 /* B_2754.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
