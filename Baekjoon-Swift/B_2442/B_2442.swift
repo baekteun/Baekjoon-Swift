@@ -9,5 +9,5 @@ guard let n = Int(readLine()!) else { fatalError() }
 for i in 0..<n{
     for _ in 0..<n-i-1 {print(" ",terminator: "")}
     for _ in 0..<2*i+1 {print("*",terminator: "")}
-    print("\n")
+    print("")
 }
