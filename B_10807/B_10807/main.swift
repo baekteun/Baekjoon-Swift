@@ -12,4 +12,4 @@ let numbers = readLine()!
     .split(separator: " ")
 let finding = readLine()!
 
-print(numbers.count(where: { $0 == finding }))
+print(numbers.filter({ $0.localizedCompare(finding) == .orderedSame }).count)
